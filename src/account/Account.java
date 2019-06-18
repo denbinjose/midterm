@@ -7,7 +7,7 @@ package account;
 
 /**
  *
- * @author Sivagama
+ * @author Denbin Jose
  */
 public class Account {
 
