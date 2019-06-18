@@ -25,7 +25,7 @@ public class Account {
             user=givenUser;
             //Note that the initial balance must be greater than 50.       
         }
-
+        
      /**The method for depositing amount and 
       * updating balance*/
         public void credit(double amount)
@@ -44,8 +44,15 @@ public class Account {
      /**The getter for the balance
      * @return the balance
      */
+    
         public double getBalance() 
         {
+           if(balance>50){
+                System.out.println("Account is created");
+               
+            }
+           
+    
         return balance;
         }
 
@@ -55,6 +62,10 @@ public class Account {
         public double getInterestRate() 
         {
             return interestRate;
+        }
+         public double getYearlyInterestRate() 
+        {
+            return balance+balance*0.23;
         }
 
     /**user is the read only field

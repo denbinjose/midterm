@@ -7,7 +7,7 @@ package account;
 import java.util.Scanner;
 /**
  *
- * @author Sivagama
+ * @author Denbin Jose
  */
 public class AccountTester {
     
@@ -27,8 +27,17 @@ public class AccountTester {
         
         Account a=new Account(bal,user);
         ac[0]=a;
-             
+        
+       if(a.getBalance()>50){
+                
+        System.out.println("Account is created");     
         System.out.println("The balance is: "+a.getBalance());  
         System.out.println("The InterestRate per month is "+a.getInterestRate());
+        
+        System.out.println("The Final Balance "+a.getYearlyInterestRate());
+       }
+       else
+           System.out.println("Account is not created");
+           
     }
 }
