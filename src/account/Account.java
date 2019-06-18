@@ -77,3 +77,13 @@ public class Account {
     
     
 }//class end
+
+
+
+/*1. A written description in the response box of your design for the 
+code extension. It does not need to include any UML diagrams, just an explanation 
+of how you will approach it and how that incorporates good design. (2 of 10 points)
+
+Ans: This code is designed with encapsulation and loosily coupled principle
+     so it is more protected and can be edit easily.
+*/
